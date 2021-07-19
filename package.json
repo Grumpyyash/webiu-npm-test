@@ -10,7 +10,7 @@
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.0.1",
-    "webiu-npm": "^0.1.2"
+    "webiu-npm": "^0.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
