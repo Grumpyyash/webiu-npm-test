@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/webiu-npm/static/css/main.37a2727c.chunk.css",
+    "main.js": "/webiu-npm/static/js/main.0aae5584.chunk.js",
+    "main.js.map": "/webiu-npm/static/js/main.0aae5584.chunk.js.map",
+    "runtime-main.js": "/webiu-npm/static/js/runtime-main.8080845a.js",
+    "runtime-main.js.map": "/webiu-npm/static/js/runtime-main.8080845a.js.map",
+    "static/css/2.54a318c1.chunk.css": "/webiu-npm/static/css/2.54a318c1.chunk.css",
+    "static/js/2.e5da357f.chunk.js": "/webiu-npm/static/js/2.e5da357f.chunk.js",
+    "static/js/2.e5da357f.chunk.js.map": "/webiu-npm/static/js/2.e5da357f.chunk.js.map",
+    "static/js/3.9d17da1f.chunk.js": "/webiu-npm/static/js/3.9d17da1f.chunk.js",
+    "static/js/3.9d17da1f.chunk.js.map": "/webiu-npm/static/js/3.9d17da1f.chunk.js.map",
+    "index.html": "/webiu-npm/index.html",
+    "static/css/2.54a318c1.chunk.css.map": "/webiu-npm/static/css/2.54a318c1.chunk.css.map",
+    "static/css/main.37a2727c.chunk.css.map": "/webiu-npm/static/css/main.37a2727c.chunk.css.map",
+    "static/js/2.e5da357f.chunk.js.LICENSE.txt": "/webiu-npm/static/js/2.e5da357f.chunk.js.LICENSE.txt",
+    "static/media/Typewriter.sass": "/webiu-npm/static/media/dots.f0d43dd9.png",
+    "static/media/email-icon.551f230b.png": "/webiu-npm/static/media/email-icon.551f230b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8080845a.js",
+    "static/css/2.54a318c1.chunk.css",
+    "static/js/2.e5da357f.chunk.js",
+    "static/css/main.37a2727c.chunk.css",
+    "static/js/main.0aae5584.chunk.js"
+  ]
+}
