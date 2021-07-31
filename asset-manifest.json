@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/webiu-npm/static/css/main.37a2727c.chunk.css",
-    "main.js": "/webiu-npm/static/js/main.0aae5584.chunk.js",
-    "main.js.map": "/webiu-npm/static/js/main.0aae5584.chunk.js.map",
-    "runtime-main.js": "/webiu-npm/static/js/runtime-main.8080845a.js",
-    "runtime-main.js.map": "/webiu-npm/static/js/runtime-main.8080845a.js.map",
-    "static/css/2.54a318c1.chunk.css": "/webiu-npm/static/css/2.54a318c1.chunk.css",
-    "static/js/2.e5da357f.chunk.js": "/webiu-npm/static/js/2.e5da357f.chunk.js",
-    "static/js/2.e5da357f.chunk.js.map": "/webiu-npm/static/js/2.e5da357f.chunk.js.map",
-    "static/js/3.9d17da1f.chunk.js": "/webiu-npm/static/js/3.9d17da1f.chunk.js",
-    "static/js/3.9d17da1f.chunk.js.map": "/webiu-npm/static/js/3.9d17da1f.chunk.js.map",
-    "index.html": "/webiu-npm/index.html",
-    "static/css/2.54a318c1.chunk.css.map": "/webiu-npm/static/css/2.54a318c1.chunk.css.map",
-    "static/css/main.37a2727c.chunk.css.map": "/webiu-npm/static/css/main.37a2727c.chunk.css.map",
-    "static/js/2.e5da357f.chunk.js.LICENSE.txt": "/webiu-npm/static/js/2.e5da357f.chunk.js.LICENSE.txt",
-    "static/media/Typewriter.sass": "/webiu-npm/static/media/dots.f0d43dd9.png",
-    "static/media/email-icon.551f230b.png": "/webiu-npm/static/media/email-icon.551f230b.png"
+    "main.css": "/webiu-npm-test/static/css/main.37a2727c.chunk.css",
+    "main.js": "/webiu-npm-test/static/js/main.4db714fe.chunk.js",
+    "main.js.map": "/webiu-npm-test/static/js/main.4db714fe.chunk.js.map",
+    "runtime-main.js": "/webiu-npm-test/static/js/runtime-main.c71d12a8.js",
+    "runtime-main.js.map": "/webiu-npm-test/static/js/runtime-main.c71d12a8.js.map",
+    "static/css/2.73e582b2.chunk.css": "/webiu-npm-test/static/css/2.73e582b2.chunk.css",
+    "static/js/2.4fa60546.chunk.js": "/webiu-npm-test/static/js/2.4fa60546.chunk.js",
+    "static/js/2.4fa60546.chunk.js.map": "/webiu-npm-test/static/js/2.4fa60546.chunk.js.map",
+    "static/js/3.eb750de0.chunk.js": "/webiu-npm-test/static/js/3.eb750de0.chunk.js",
+    "static/js/3.eb750de0.chunk.js.map": "/webiu-npm-test/static/js/3.eb750de0.chunk.js.map",
+    "index.html": "/webiu-npm-test/index.html",
+    "static/css/2.73e582b2.chunk.css.map": "/webiu-npm-test/static/css/2.73e582b2.chunk.css.map",
+    "static/css/main.37a2727c.chunk.css.map": "/webiu-npm-test/static/css/main.37a2727c.chunk.css.map",
+    "static/js/2.4fa60546.chunk.js.LICENSE.txt": "/webiu-npm-test/static/js/2.4fa60546.chunk.js.LICENSE.txt",
+    "static/media/Typewriter.sass": "/webiu-npm-test/static/media/dots.f0d43dd9.png",
+    "static/media/email-icon.551f230b.png": "/webiu-npm-test/static/media/email-icon.551f230b.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.8080845a.js",
-    "static/css/2.54a318c1.chunk.css",
-    "static/js/2.e5da357f.chunk.js",
+    "static/js/runtime-main.c71d12a8.js",
+    "static/css/2.73e582b2.chunk.css",
+    "static/js/2.4fa60546.chunk.js",
     "static/css/main.37a2727c.chunk.css",
-    "static/js/main.0aae5584.chunk.js"
+    "static/js/main.4db714fe.chunk.js"
   ]
 }
