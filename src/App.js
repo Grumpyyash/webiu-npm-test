@@ -55,12 +55,12 @@ function App() {
     <div>
       <HeaderComponent mainText="WELCOME TO SCoRe LAB" 
                          subText="The SCoRe Lab has conducted research covering various aspects of sensor networks, embeded systems, digital forensic, information security, mobile applications, cloud, blockchain and software tools." 
-                         buttonText="Explore" buttonLink="/"
+                         buttonText="Explore" buttonLink="#"
                          image="https://scorelab.org/images/community.png" small={false} />
 
         <SignupAndLogin signupMessage="Signup" loginMessage="Login" handleSignup={() => {}} handleLogin={() => {}} />
 
-        <CardComponent header="Services Component" card={false} services={true} buttonText="All Services" buttonLink="/"
+        <CardComponent header="Services Component" card={false} services={true} buttonText="All Services" buttonLink="#"
                        data={[{image: "https://uxwing.com/wp-content/themes/uxwing/download/07-web-app-development/software-engineer.svg", 
                                title: "DEVELOPMENT", 
                                description: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution"},
@@ -79,7 +79,7 @@ function App() {
                                    image: "https://scorelab.org/logos/projects/senz.png"}]}
                            header="Carousel" />
 
-        <ComingsoonComponent header="Countdown" image="https://scorelab.org/images/joinTeam.png" buttonLink="/" 
+        <ComingsoonComponent header="Countdown" image="https://scorelab.org/images/joinTeam.png" buttonLink="#" 
                              countdownText="Coming soon!" deployDate="1 Jan, 2022 00:00:00" buttonText="Explore" 
                              message="The new version of this package is coming soon!" />
 
@@ -89,21 +89,21 @@ function App() {
                           subscribeMessage="Subscribe to Newsletter" />
 
         <AboutComponent header="About Component" mainText="Welcome to SCoRe Lab" subText="This is a description text" 
-                        buttonText="Explore" buttonLink="/" image="https://scorelab.org/images/community.png" />
+                        buttonText="Explore" buttonLink="#" image="https://scorelab.org/images/community.png" />
 
         <AnnouncementComponent header="Announcements" speed="2" title="Announcements" direction="up" 
-                               data={[{text: "Notice 1", link: "/"}, {text: "Notice 2", link: "/"}]} />
+                               data={[{text: "Notice 1", link: "#"}, {text: "Notice 2", link: "#"}]} />
 
         <CardComponent header="Card Component" card={true} services={false}
                        data={[{image: "https://scorelab.org/logos/projects/dronesym.png", title: "Dronesym", 
                                description: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution", 
-                               buttonText: "All Services", buttonLink: "/"},
+                               buttonText: "All Services", buttonLink: "#"},
                               {image: "https://scorelab.org/logos/projects/parks.png", title: "Parks", 
                                description: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution", 
-                               buttonText: "All Services", buttonLink: "/"},
+                               buttonText: "All Services", buttonLink: "#"},
                               {image: "https://scorelab.org/logos/projects/bassa.png", title: "Bassa", 
                                description: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution", 
-                               buttonText: "All Services", buttonLink: "/"}]} />  
+                               buttonText: "All Services", buttonLink: "#"}]} />  
 
         <DescriptionComponent title="Description Container" 
                               subTitle="This component can be used to declare description regarding of a particular instance"
@@ -125,20 +125,20 @@ function App() {
 
         <LetterAvatar name="Yash Vardhan" bgColor="green" />
 
-        <Partner header="Partner-With-Us" mainText="Collaborate with us" contactText="contact us" contactLink="/" 
-                 buttonText="Form" buttonLink="/" image="https://scorelab.org/images/joinTeam.png" 
+        <Partner header="Partner-With-Us" mainText="Collaborate with us" contactText="contact us" contactLink="#" 
+                 buttonText="Form" buttonLink="#" image="https://scorelab.org/images/joinTeam.png" 
                  subText="The SCoRe Lab has conducted research covering various aspects of sensor networks, embeded systems, digital forensic, information security, mobile applications, cloud, blockchain and software tools." />
 
         <Pricing title="Subscription Charges" header="Pricing" description="sample-description"
                  plans={[{plan: "BASIC", description: "sample", price: 30, 
                           items: ["Lorem Ipsum Text Example Sample", "Lorem Ipsum Text Example Sample", "Lorem Ipsum Text Example Sample"], 
-                          buttonText: "Explore", buttonLink: "/"},
+                          buttonText: "Explore", buttonLink: "#"},
                          {plan: "ADVANCE", description: "sample", price: 40, 
                           items: ["Lorem Ipsum Text Example Sample", "Lorem Ipsum Text Example Sample", "Lorem Ipsum Text Example Sample"], 
-                          buttonText: "Explore", buttonLink: "/"},
+                          buttonText: "Explore", buttonLink: "#"},
                          {plan: "PRO", description: "sample", price: 50, 
                           items: ["Lorem Ipsum Text Example Sample", "Lorem Ipsum Text Example Sample", "Lorem Ipsum Text Example Sample"], 
-                          buttonText: "Explore", buttonLink: "/"}]} />
+                          buttonText: "Explore", buttonLink: "#"}]} />
       
         <ImageAvatar image="https://yashvardhanportfolio.netlify.app/static/media/yash%20(2).ca34b90c.jpg" />
 
@@ -182,7 +182,7 @@ function App() {
         <ImageGrid size={6} images={[{imageUrl: "https://scorelab.org/images/community.png", imageText: "SCoRe Lab"}, 
                                      {imageUrl: "https://scorelab.org/images/joinTeam.png", imageText: "OUR TEAM"}]} 
                    header="ImageGrid" row={false}
-                   categories={false} categoryData={[{text: "text", color: "#e52165", route: "/", image: "https://scorelab.org/images/community.png"}]} />
+                   categories={false} categoryData={[{text: "text", color: "#e52165", route: "#", image: "https://scorelab.org/images/community.png"}]} />
 
         <SearchBar handleSearch={() => console.log("Hello")} placeHolder="Search Items" header="Search Bar" />
 
@@ -195,7 +195,7 @@ function App() {
                             rating: "4"}]} />
 
         <Timestamp image="https://scorelab.org/images/community.png" firstName="SCoRe Lab" buttonText="Home" 
-                   buttonLink="/" message="sample-message" />
+                   buttonLink="#" message="sample-message" />
 
         <LinksList links={[{"name": "Sample1", "url": "https://google.com"},
                            {"name": "Sample2", "url": "https://google.com"},
@@ -206,12 +206,12 @@ function App() {
                      header="Video" />
 
         <NavBar logo="https://scorelab.org/logos/main-logo.jpeg"
-                links={[{path: "sample-link", isSpecial: false, isExternal: false, name: "Home"}, 
-                        {path: "sample-link", isSpecial: false, isExternal: false, name: "Team"}, 
-                        {path: "sample-link", isSpecial: false, isExternal: false, name: "Projects"}, 
-                        {path: "sample-link", isSpecial: false, isExternal: false, name: "Services"}, 
-                        {path: "sample-link", isSpecial: false, isExternal: true, name: "Pricing"}, 
-                        {path: "sample-link", isSpecial: true, isExternal: false, name: "Contact"},]}  />
+                links={[{path: "#", isSpecial: false, isExternal: false, name: "Home"}, 
+                        {path: "#", isSpecial: false, isExternal: false, name: "Team"}, 
+                        {path: "#", isSpecial: false, isExternal: false, name: "Projects"}, 
+                        {path: "#", isSpecial: false, isExternal: false, name: "Services"}, 
+                        {path: "#", isSpecial: false, isExternal: true, name: "Pricing"}, 
+                        {path: "#", isSpecial: true, isExternal: false, name: "Contact"},]}  />
 
         <GithubContributors projectname="scorelab/webiu" title="Contributors of" limit={10}
                             auth_token="sample-token" showSearchBar={true} />
@@ -232,10 +232,10 @@ function App() {
                       description="Lorem ipsum sample description fot the idea list of the organization for google summer of code participation" 
                       listItems={[{title: "sample", description: "sample", expectedresults: "sample", possiblementors: "sample", requiredknowledge: "sample", githuburl: "sample"},
                                   {title: "sample", description: "sample", expectedresults: "sample", possiblementors: "sample", requiredknowledge: "sample", githuburl: "sample"}]}
-                      previousProjects={[{year: "2020", link: "sample-link"},
-                                        {year: "2019", link: "sample-link"},
-                                        {year: "2018", link: "sample-link"},
-                                        {year: "2017", link: "sample-link"}]}
+                      previousProjects={[{year: "2020", link: "#"},
+                                        {year: "2019", link: "#"},
+                                        {year: "2018", link: "#"},
+                                        {year: "2017", link: "#"}]}
                 />
 
         <JobOpenings title="Current Openings" 
@@ -253,17 +253,17 @@ function App() {
 
         <ProjectsList title="Projects" showSearchBar={true} searchPlaceHolder="Search Projects" limit={10}
                      items={[{title: "Bassa", description: "Lorem ispum text is a very popular tool to fill sampel data with some random text. Its origin can be attributed to a long time ago with its neccesity", 
-                              image: "https://scorelab.org/logos/projects/bassa.png", slug: "/basaa"},
+                              image: "https://scorelab.org/logos/projects/bassa.png", slug: "#"},
                              {title: "ASSET", description: "Lorem ispum text is a very popular tool to fill sampel data with some random text. Its origin can be attributed to a long time ago with its neccesity", 
-                              image: "https://scorelab.org/logos/projects/asset.png", slug: "/asset"},
+                              image: "https://scorelab.org/logos/projects/asset.png", slug: "#"},
                              {title: "DroneSym", description: "Lorem ispum text is a very popular tool to fill sampel data with some random text. Its origin can be attributed to a long time ago with its neccesity", 
-                              image: "https://scorelab.org/logos/projects/dronesym.png", slug: "/dronesym"},
+                              image: "https://scorelab.org/logos/projects/dronesym.png", slug: "#"},
                              {title: "Elly", description: "Lorem ispum text is a very popular tool to fill sampel data with some random text. Its origin can be attributed to a long time ago with its neccesity", 
-                              image: "https://scorelab.org/logos/projects/elly.png", slug: "/elly"},
+                              image: "https://scorelab.org/logos/projects/elly.png", slug: "#"},
                              {title: "D4D", description: "Lorem ispum text is a very popular tool to fill sampel data with some random text. Its origin can be attributed to a long time ago with its neccesity", 
-                              image: "https://scorelab.org/logos/projects/d4d.png", slug: "/d4d"},
+                              image: "https://scorelab.org/logos/projects/d4d.png", slug: "#"},
                              {title: "Parks", description: "Lorem ispum text is a very popular tool to fill sampel data with some random text. Its origin can be attributed to a long time ago with its neccesity", 
-                              image: "https://scorelab.org/logos/projects/parks.png", slug: "/parks"},]} />
+                              image: "https://scorelab.org/logos/projects/parks.png", slug: "#"},]} />
 
         <ProjectDetail project={{image: "https://scorelab.org/logos/projects/bassa.png",
                                 title: "Bassa",
@@ -274,19 +274,19 @@ function App() {
 
         <PublicationsList title="Research Journels" limit={10} suffle={false} publications={true} achievements={false}
                           items={[{title : "Mobile ATM for developing countries", conference: "Computer Science and Education(ICCSE), 2013 8th International Conference on - 2013", 
-                                   authors: ["Amila Karunanayke", "Kasun De Zoysa", "Sead Muftic"], slug: "/"},
+                                   authors: ["Amila Karunanayke", "Kasun De Zoysa", "Sead Muftic"], slug: "#"},
                                   {title : "Mobile ATM for developing countries", conference: "Computer Science and Education(ICCSE), 2013 8th International Conference on - 2013", 
-                                   authors: ["Amila Karunanayke", "Kasun De Zoysa", "Sead Muftic"], slug: "/"},
+                                   authors: ["Amila Karunanayke", "Kasun De Zoysa", "Sead Muftic"], slug: "#"},
                                   {title : "Mobile ATM for developing countries", conference: "Computer Science and Education(ICCSE), 2013 8th International Conference on - 2013", 
-                                   authors: ["Amila Karunanayke", "Kasun De Zoysa", "Sead Muftic"], slug: "/"},
+                                   authors: ["Amila Karunanayke", "Kasun De Zoysa", "Sead Muftic"], slug: "#"},
                                   {title : "Mobile ATM for developing countries", conference: "Computer Science and Education(ICCSE), 2013 8th International Conference on - 2013", 
-                                   authors: ["Amila Karunanayke", "Kasun De Zoysa", "Sead Muftic"], slug: "/"}]} />
+                                   authors: ["Amila Karunanayke", "Kasun De Zoysa", "Sead Muftic"], slug: "#"}]} />
 
         <Timeline header="Timeline component" height="1200px"
-                  data={[{text: 'Choose the Organization', date: 'July 23 2021', category: {tag: 'GSoC', color:'black'}, link: {url: '/', text: 'Explore'}},
-                         {text: 'Set up project', date: 'July 24 2021', category: {tag: 'GSoC', color:'orange'}, link: {url: '/', text: 'Explore'}},
-                         {text: 'Open a Pull Request', date: 'July 25 2021', category: {tag: 'GSoC', color:'red'}, link: {url: '/', text: 'Explore'}},
-                         {text: 'Code gets merged', date: 'July 26 2021', category: {tag: 'GSoC', color:'green'}, link: {url: '/', text: 'Explore'}},]} />
+                  data={[{text: 'Choose the Organization', date: 'July 23 2021', category: {tag: 'GSoC', color:'black'}, link: {url: '#', text: 'Explore'}},
+                         {text: 'Set up project', date: 'July 24 2021', category: {tag: 'GSoC', color:'orange'}, link: {url: '#', text: 'Explore'}},
+                         {text: 'Open a Pull Request', date: 'July 25 2021', category: {tag: 'GSoC', color:'red'}, link: {url: '#', text: 'Explore'}},
+                         {text: 'Code gets merged', date: 'July 26 2021', category: {tag: 'GSoC', color:'green'}, link: {url: '#', text: 'Explore'}},]} />
 
         <Team
                 title="Team Component" showSearchBar={true}
@@ -302,8 +302,8 @@ function App() {
         <Typewriter header="Typewriter" wait={100} color="" staticText="I AM A"
                     words={["DEVELOPER", "PROGRAMMER", "DEBUGGER"]} />
 
-        <FooterComponent socialLinks={{facebook: "/", gitter: "/", twitter: "/", github: "/", 
-                                       linkedin:"/", medium:"/"}} mainText="Copyright © SCoRe Lab" />
+        <FooterComponent socialLinks={{facebook: "#", gitter: "#", twitter: "#", github: "#", 
+                                       linkedin:"#", medium:"#"}} mainText="Copyright © SCoRe Lab" />
     </div>
   );
 }
