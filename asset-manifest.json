@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/webiu-npm-test/static/css/main.37a2727c.chunk.css",
-    "main.js": "/webiu-npm-test/static/js/main.4db714fe.chunk.js",
-    "main.js.map": "/webiu-npm-test/static/js/main.4db714fe.chunk.js.map",
+    "main.js": "/webiu-npm-test/static/js/main.101e8efa.chunk.js",
+    "main.js.map": "/webiu-npm-test/static/js/main.101e8efa.chunk.js.map",
     "runtime-main.js": "/webiu-npm-test/static/js/runtime-main.c71d12a8.js",
     "runtime-main.js.map": "/webiu-npm-test/static/js/runtime-main.c71d12a8.js.map",
     "static/css/2.73e582b2.chunk.css": "/webiu-npm-test/static/css/2.73e582b2.chunk.css",
@@ -22,6 +22,6 @@
     "static/css/2.73e582b2.chunk.css",
     "static/js/2.4fa60546.chunk.js",
     "static/css/main.37a2727c.chunk.css",
-    "static/js/main.4db714fe.chunk.js"
+    "static/js/main.101e8efa.chunk.js"
   ]
 }
